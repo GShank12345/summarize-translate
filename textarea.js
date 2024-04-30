@@ -117,7 +117,7 @@ textpage.onclick = function textpage()
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ' + "Decryptedkey"
+            'Authorization': 'Bearer ' + textkey
         },
             
         body: data = JSON.stringify({
